@@ -35,9 +35,11 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
 </head>
 <body>
-    <h1>東京ハッピーアワー</h1>  
-    <?php $session->flash(); ?>
-    <?php echo $content_for_layout; ?>
+    <h1><img src="<?php echo $html->url('/img/logo.png'); ?>" alt="東京ハッピーアワー" width="300" height="30" /></h1>
+    <div id="content"> 
+        <?php $session->flash(); ?>
+        <?php echo $content_for_layout; ?>
+    </div> 
         
 <?php echo $cakeDebug; ?>
 </body>

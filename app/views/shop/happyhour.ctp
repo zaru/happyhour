@@ -1,5 +1,5 @@
 
-    <h2>東京23区内のお店リスト - <a href="<?php echo $html->url('/shop/happyhour'); ?>">ハッピーアワーを実施しているお店一覧</a></h2>
+    <h2><a href="<?php echo $html->url('/'); ?>">東京23区内のお店リスト</a> - ハッピーアワーを実施しているお店一覧</h2>
     <?php $spaginator->options(array('url' => $condition)); ?>
     <ul class="pages clearfix">
         <li class="read">全<?php echo $spaginator->counter(array('format' => '%count%')); ?>件</li>

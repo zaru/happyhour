@@ -1,2 +1,98 @@
 @charset "UTF-8";
 @import "default.css";
+
+/*
+ * リンク
+ */
+a,a:visited{
+    color:#ff0072;
+}
+
+/*
+ * ヘッダー
+ */
+h1{
+    text-align: center;
+    padding:10px;
+}
+
+/*
+ * 本体
+ */
+#content{
+    width:600px;
+    margin:10px auto;
+}
+#content h2{
+    font-weight: bold;
+    font-size:100%;
+    border-bottom: 1px solid #000000;
+    padding:5px 0;
+    margin:5px 0;
+}
+
+/*
+ * 店舗一覧
+ */
+.shop_list{
+    background-color: #fff9e2;
+    border:1px solid #cccccc;
+    padding: 5px;
+    margin:10px 0;
+}
+.shop_list h3{
+    background-color: #ffcc00;
+    padding:5px;
+}
+.shop_list h3 strong{
+    color:#ff0072;
+    background-color: #ffddec;
+    padding:3px;
+    margin: 0 5px;
+}
+.shop_list p{
+    font-size:85%;
+}
+.shop_list .category{
+    text-align: right;
+}
+.shop_list dl{
+    font-size:77%;
+}
+.shop_list dt{
+    width:8em;
+    float: left;
+}
+.shop_list dd{
+    padding:0 0 0 9em;
+}
+
+/*
+ * ページング
+ */
+.pages{
+    font-size:85%;
+    margin:10px;
+    color:#ffffff;
+}
+.pages li{
+    border:1px solid #ff0072;
+    float: left;
+    margin:0 3px;
+}
+.pages li.read{
+    border:0;
+    color:#000000;
+    padding:3px 5px;
+}
+.pages li.current{
+    display: block;
+    background-color: #ff0072;
+    padding:3px 5px;
+}
+.pages li a{
+    display: block;
+    background-color: #ffddec;
+    padding:3px 5px;
+    color:#ff0072;
+}
