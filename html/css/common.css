@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*----------------------------------------
+Name: common.css
+Date Created:2009/02/10 [s.nakamura]
+Last Updated:2009/02/10 [ID]
+----------------------------------------*/
+
+/* clearfix
+------------------------------------------------*/
+body{
+	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    overflow-y: scroll;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix { display: inline-block; }
+/* \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* */
+
+
+/*余白*/
+.pd10{padding:10px 0;}
+.pd15{padding:15px 0;}
+.pd20{padding:20px 0;}
+/*余白 下のみ*/
+pd10b{padding:0 0 10px 0;}
+.pd15b{padding:0 0 15px 0;}
+.pd20b{padding:0 0 20px 0;}
+.pd30b{padding:0 0 30px 0;}
+.pd40b{padding:0 0 40px 0;}
+/*間隔*/
+.mg10{margin:10px 0;}
+.mg20{margin:20px 0;}
+.mg30{margin:30px 0;}
+.mg40{margin:40px 0;}
+/*間隔 下のみ*/
+.mg10b{margin:0 0 10px 0;}
+.mg20b{margin:0 0 20px 0;}
+.mg30b{margin:0 0 30px 0;}
+.mg40b{margin:0 0 40px 0;}
+
+
+/*インプット幅*/
+.txt200{ width:200px;}
+
+
+
+
+
+

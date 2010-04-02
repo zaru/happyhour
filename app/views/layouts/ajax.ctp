@@ -1,0 +1,1 @@
+<?php $session->flash(); echo $content_for_layout; ?>

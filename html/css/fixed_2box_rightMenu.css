@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*----------------------------------------
+Name: layout2BoxCentered.css
+Date Created:2009/02/10 [s.nakamura]
+Last Updated:2009/02/10 [s.nakamura]
+----------------------------------------*/
+
+#wrapper{
+	margin: 0 auto;
+	width: 900px;
+	}
+#mainColumn{
+	width:700px;
+	float:left;
+	}
+
+#rightColumn{
+	width:200px;
+	float:right;
+	}
+
+#footer{
+	clear:both;
+	

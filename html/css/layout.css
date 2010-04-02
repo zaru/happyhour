@@ -1,0 +1,355 @@
+@charset "utf-8";
+/*----------------------------------------
+Name: layout2BoxCentered.css
+Date Created:2009/02/10 [s.nakamura]
+Last Updated:2009/02/10 [s.nakamura]
+----------------------------------------*/
+
+#wrapper{
+ margin: 0 auto;
+ width: 940px;
+}
+#contents{
+	padding:30px 0 0 0;
+}
+#contents h2{
+	padding:0 0 20px 0;
+}
+#mainColumn{
+}
+/*----------------------------------------
+ログイン画面
+----------------------------------------*/
+#mainColumn .loginImg{
+	float:left;
+	width:547px;
+}
+#mainColumn .loginBox{
+	float:right;
+	padding:28px 0;
+	width:376px;
+	background:#F0F9FD;
+	border:2px solid #0FA8E4;
+}
+#mainColumn .loginBox dl{
+	padding:0 0 0 28px;
+}
+#mainColumn .loginBox dl dt{
+	padding:3px 0 24px 0;
+	float:left;
+	width:70px;
+}
+#mainColumn .loginBox dl dd{
+	padding:0 0 27px 0;
+	margin:0 0 0 105px;
+}
+.loginBtn{
+	margin:0 auto;
+	width:315px;
+}
+/*----------------------------------------
+会員規約・約款画面
+----------------------------------------*/
+#mainColumn .codeBox{
+	padding:20px 30px;
+	background:#F0F9FD;
+	border:2px solid #0FA8E4;
+}
+.codeInner{
+	padding:20px;
+	height:360px;
+	background:#FFF;
+	border:1px solid #CCC;
+	overflow:auto;
+	font-size:11px;
+}
+.codeInner h3{
+	padding:0 0 5px 0;
+	font-size:12px;
+	font-weight:bold;
+}
+.codeInner h4{
+	padding:0 0 5px 0;
+	font-size:12px;
+}
+.codeInner p{
+	line-height:1.2;
+	padding:0 0 10px 0;
+}
+.codeInner ul{
+	padding:10px 0 20px 20px;
+}
+.codeBtn{
+	padding:0 0 20px 0;
+	margin:0 auto;
+	width:315px;
+}
+.Agreement{
+	margin:0 auto;
+	width:250px;
+}
+#mainColumn .Agreement dl{
+	padding:20px 0 20px 28px;
+}
+#mainColumn .Agreement dl dt{
+	padding:0 0 10px 0;
+	float:left;
+	width:15px;
+}
+#mainColumn .Agreement dl dd{
+	padding:0 0 10px 0;
+	margin:0 0 0 20px;
+}
+
+
+/*----------------------------------------
+予約確認画面
+----------------------------------------*/
+#mainColumn .confBox{
+	padding:20px 30px;
+	background:#F0F9FD;
+	border:2px solid #0FA8E4;
+}
+#mainColumn .confBox .innerLeft{
+	float:left;
+	width:480px;
+}
+#mainColumn .confBox .innerLeft  h2{
+	padding:0;
+	font-size:15px;
+	color:#333;
+}
+#mainColumn .innerLeft dl{
+	clear:both;
+	padding:0 0 10px 0;
+	font-size:13px;
+}
+#mainColumn .innerLeft dl dt{
+	padding:0.6em 0 0.6em 0;
+	float:left;
+	width:10em;
+	color:#00A1E1;
+}
+#mainColumn .innerLeft dl dd{
+	padding:0.6em 0 0.6em 11em;
+	background:url(../img/dot_02.gif) repeat-x 0 bottom;
+}
+#mainColumn .innerLeft dl dd.none{
+	padding:0.6em 0 0.6em 11em;
+	background: none;
+}
+#mainColumn .confBox .innerRight{
+	float:right;
+	padding:20px 0 0 0;
+	text-align:center;
+	width:360px;
+}
+#mainColumn .confBox .innerRight p{
+	padding:0 0 50px 0;
+}
+.btnDecide{
+}
+/*----------------------------------------
+予約完了画面
+----------------------------------------*/
+.finishTxt{
+	padding:30px 0;
+	text-align:center;
+}
+#mainColumn .confBox .innerRight .finishTxt02{
+	padding:0 0 20px 0;
+}
+.btnClose{
+	padding:20px 0 0 0;
+}
+
+/*----------------------------------------
+予約状況画面
+----------------------------------------*/
+.statuSttl{
+	float:left;
+	width:150px;
+}
+#mainColumn .statusList{
+	float:right;
+	padding:0 0 20px 0;
+	width:720px;
+}
+#mainColumn .statusList dl{
+	clear:both;
+	padding:0 0 10px 0;
+	font-size:13px;
+}
+#mainColumn .statusList dl dt{
+	padding:0.6em 0 0 0;
+	float:left;
+	width:23em;
+	color:#00A1E1;
+}
+#mainColumn .statusList dl dd{
+	padding:0.3em 0 0.3em 23em;
+}
+#mainColumn .statusList dl dd img{
+	vertical-align:bottom;
+}
+.atten{
+	font-size:11px;
+	padding:0.6em 0 0 0.5em;
+	color:#FF0000;
+}
+#mainColumn .statusBox{
+	clear:both;
+	padding:20px 30px;
+	background:#F0F9FD;
+	border:2px solid #0FA8E4;
+}
+#mainColumn .statusBox .innerLeft{
+	float:left;
+	width:310px;
+}
+#mainColumn .statusBox .innerRight{
+	float:right;
+	width:520px;
+}
+.reserBtn{
+	padding:0 0 0 130px;
+}
+#mainColumn .statusBox .innerRight dl{
+	clear:both;
+	padding:0 0 20px 0;
+	font-size:13px;
+}
+#mainColumn .statusBox .innerRight dl dt{
+	padding:3px 0 0 0;
+	float:left;
+	width:120px;
+	color:#00A1E1;
+}
+#mainColumn .statusBox .innerRight dl dt img{
+}
+#mainColumn .statusBox .innerRight dl dd{
+	padding:0 0 0 130px;
+}
+
+/*月*/
+.Month{
+	float:left;
+	width:110px;
+}
+/*カレンダー*/
+.thisMonth{
+	font-size:18px;
+	color:#00A2E2;
+}
+.calender{
+	float:right;
+	width:200px;
+}
+.calender ol{
+}
+.calender li{
+	float:left;
+	margin:-1px -1px 0 0;
+	padding:3px 0;
+	display: block;
+	width:26px;
+	height:16px;
+	text-align:center;
+	font-size:10px;
+	border:1px solid #CCC;
+	background:#FFF;
+}
+.calender li a{
+	display: block;
+	width:26px;
+	height:16px;
+}
+.calender li.day{
+	background:#F6F6F6;
+}
+.calender .focus{
+	background:#00A2E2;
+	color:#FFF;
+}
+.calender .focus a{
+	color:#FFF;
+}
+
+/*----------------------------------------
+タイムライン
+----------------------------------------*/
+.timelne{
+	clear:both;
+	padding:40px 0 20px 0;
+}
+.timelne h3{
+	padding:0 0 20px 0 ;
+}
+.timelne ul{
+	margin:0 auto;
+	width:793px;
+}
+.timelne ul li{
+	float:left;
+	width:264px;
+	text-align:center;
+	font-size:18px;
+	color:#00A0E0;
+}
+.timelneInner{
+	clear:both;
+	margin:20px auto 0;
+	padding:0 48px 0 47px;
+	width:794px;
+	height:610px;
+	background: url(../img/timeline.gif) no-repeat 0 0;
+}
+.PrecedingDay{
+	position:relative;
+	float:left;
+	width:265px;
+	height:610px;
+}
+.theDay{
+	position:relative;
+	float:left;
+	width:264px;
+	height:610px;
+}
+.nextDay{
+	position:relative;
+	float:left;
+	width:265px;
+	height:610px;
+}
+.completed{
+	position:absolute;
+	top:7px;
+	left:20px;
+	background:#CCECF9;
+	height:200px;
+	width:225px;
+}
+.compTxt{
+	position:absolute;
+	top:0;
+	font-size:10px;
+}
+
+
+
+
+.pageTop{
+	clear:both;
+	padding:20px 0 ;
+	text-align:right;
+}
+#footer{
+	clear:both;
+	padding:0 0 20px 0;
+	border-top:1px solid #CCC;
+}
+.copyrignt{
+	padding:10px 0;
+	text-align:right;
+}

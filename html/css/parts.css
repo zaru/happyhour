@@ -1,0 +1,199 @@
+/*----------------------------------------
+Name: parts.css
+Date Created:2009/02/10 [s.nakamura]
+Last Updated:2009/02/10 [s.nakamura]
+----------------------------------------*/
+
+
+
+
+/* ページの先頭へ戻る　go to page top
+----------------------------------------*/
+.pageTop {
+	text-align:right;
+}
+.pageTop a {
+}
+.pageTop a:hover {
+}
+
+
+/* パンくず breadcrumb navigation
+----------------------------------------*/
+#pkz{
+	font-size:10px;
+	color:#666;
+}
+#pkz a{
+	text-decoration:none;
+	color:#666;
+}
+#pkz a:hover{
+}
+#pkz em{
+	font-weight:bold;
+}
+
+
+
+/* 矢印アイコン,リンクアイコンなど arrow,targetBlank,icon,etc.
+-------------------------------------------------------------------*/
+.arrow_01 {
+	padding-left:15px;
+	background:url(../img/arrow_01.gif) 0 0.3em no-repeat;
+	text-decoration:none;
+}
+
+a.arrow_blank{
+	padding-left:15px;
+	background:url(../img/arrow_blank.gif) 0 0.35em no-repeat;
+	text-decoration:none;
+}
+
+
+
+/*DL-0010    news information Layout
+--------------------------------------------------------------------
+ ddよりもdtが高さのある場合は使えない。
+ レイアウトはjquery_setting.jsでクラス名を設定。装飾のみ行う*/
+
+dl.news	div{
+	padding:5px;
+}
+dl.news{
+   border-bottom:1px solid #999;
+	 margin-bottom:10px;
+}
+dl.news dt,dl.news dd{
+   border-top:1px solid #999;
+}
+dl.news dt{
+   width:10em;
+}
+dl.news dd{
+   margin-left:10em; /*not use padding*/
+}
+
+
+/* *n 
+----------------------------------------*/
+
+#floatList {
+	width:490px;
+	background-color:#333;
+}
+#floatList li {
+	width:90px;
+	float:left;
+	background-color:#EEE;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#floatList li.liRight {
+	margin-right:0;
+}
+
+/* floatHeight
+----------------------------------------*/
+
+#floatHeight {
+	width:320px;
+	padding:10px 0;
+	background-color:#333;
+}
+
+#floatHeight li {
+	float:left;
+	width:100px;
+	margin:2px;
+	background-color:#EEE;
+}
+
+
+
+/* page Next-Back
+----------------------------------------*/
+
+ul.pager{
+	line-height:1.0;
+	padding-bottom:10px;
+}
+ul.pager li{
+	float:left;
+	width:18px;
+	padding:3px 0 1px 0;
+	text-align:center;
+	border:1px solid #ccc;
+	margin-left:2px;
+}
+ul.pager li a {
+	display:block;
+	text-decoration:none;
+}
+ul.pager li.new {
+	background-color:#CCC;
+}
+ul.pager li.prv, ul.pager li.nxt{
+	width:35px;
+}
+
+/* 角丸
+----------------------------------------*/
+.rounded {padding:20px; background:#CCC;}
+
+.lineRounded {padding:3px;background:#CCC;}
+
+
+/* TABLE   TABLE-0010
+----------------------------------------*/
+talbe.table01 {
+}
+table.table01 thead th,
+table.table01 tbody th,
+table.table01 tbody td {
+	padding:4px;
+	border:1px solid #666;
+}
+table.table01 thead th {
+	background:#CCC;
+}
+table.table01 tbody th {
+	background:#EEE;
+}
+table.table02 tbody td {
+	color:#393;
+}
+
+/* TABLE   TABLE-0020
+----------------------------------------*/
+talbe.table02 {
+}
+table.table02 thead th,
+table.table02 tbody td {
+	padding:4px;
+	border:1px solid #666;
+}
+table.table02 thead th {
+	background:#CCC;
+}
+table.table02 tbody td {
+	color:#393;
+}
+
+/* TABLE   TABLE-0030
+----------------------------------------*/
+talbe.table03 {
+}
+table.table03 tbody th,
+table.table03 tbody td {
+	padding:4px;
+	border:1px solid #666;
+}
+table.table03 tbody th {
+	background:#CCC;
+}
+table.table03 tbody td {
+	color:#393;
+}
+
+

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*----------------------------------------
+Name: import.css
+Date Created:2009/02/10 [s.nakamura]
+Last Updated:2009/02/10 [s.nakamura]
+----------------------------------------*/
+
+
+/*import common CSS
+----------------------------------------*/
+
+
+@import url("reset.css");
+@import url("jquery_setting.css");
+@import url("common.css");
+@import url("layout.css");
+@import url("header.css");
+/*@import url("fixed_2box_leftMenu.css"); 
+@import url("fixed_2box_rightMenu.css"); */
