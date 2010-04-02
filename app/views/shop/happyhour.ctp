@@ -1,16 +1,18 @@
 
     <h2><a href="<?php echo $html->url('/'); ?>">東京23区内のお店リスト</a> - ハッピーアワーを実施しているお店一覧</h2>
-    <h3>エリアで絞り込む</h3>
-    <ul class="search_area">
-        <li><a href="<?php echo $html->url('/shop/happyhour/'); ?>">すべて</a></li>
-    <?php
-        foreach($cityLists as $val){
-    ?>
-        <li><a href="<?php echo $html->url('/shop/happyhour/' . $val); ?>"><?php echo h($val); ?></a></li>
-    <?php
-        }
-    ?>
-    </ul>
+    <div class="search_box">
+        <h3>エリアで絞り込む</h3>
+        <ul class="search_area">
+            <li><a href="<?php echo $html->url('/shop/happyhour/'); ?>">すべて</a></li>
+        <?php
+            foreach($cityLists as $val){
+        ?>
+            <li><a href="<?php echo $html->url('/shop/happyhour/' . $val); ?>"><?php echo h($val); ?></a></li>
+        <?php
+            }
+        ?>
+        </ul>
+    </div>
     <?php $spaginator->options(array('url' => $condition)); ?>
     <ul class="pages clearfix">
         <li class="read">全<?php echo $spaginator->counter(array('format' => '%count%')); ?>件</li>

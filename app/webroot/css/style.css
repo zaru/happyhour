@@ -70,6 +70,9 @@ h1{
 /*
  * 検索部分
  */
+.search_box{
+    padding:10px 0;
+}
 .search_area li{
     display: inline;
     padding:0 1em 0 0;
