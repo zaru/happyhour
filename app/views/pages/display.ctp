@@ -33,8 +33,14 @@
             <dd><?php echo h($val['ShopList']['address']); ?></dd>
             <dt>電話番号</dt>
             <dd><?php echo h($val['ShopList']['tel']); ?></dd>
+            <?php
+                if($val['ShopList']['fax'] != ''){
+            ?>
             <dt>FAX番号</dt>
             <dd><?php echo h($val['ShopList']['fax']); ?></dd>
+            <?php
+                }
+            ?>
             <dt>開店時間</dt>
             <dd><?php echo h($val['ShopList']['opentime']); ?></dd>
             <dt>定休日</dt>
