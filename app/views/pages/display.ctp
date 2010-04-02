@@ -3,7 +3,7 @@
     <?php $spaginator->options(array('url' => $condition)); ?>
     <ul class="pages">
         <?php
-                echo '<li class="rev">' . $spaginator->prev('<<') . '</li>';
+                echo '<li class="prev">' . $spaginator->prev('<<') . '</li>';
                 echo $spaginator->numbers(array(
                 'tag'       => 'li', 
                 'separator' => '',
