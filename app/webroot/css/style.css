@@ -2,14 +2,14 @@
 @import "default.css";
 
 /*
- * ƒŠƒ“ƒN
+ * ãƒªãƒ³ã‚¯
  */
 a,a:visited{
     color:#ff0072;
 }
 
 /*
- * ƒwƒbƒ_[
+ * ãƒ˜ãƒƒãƒ€ãƒ¼
  */
 h1{
     text-align: center;
@@ -17,7 +17,7 @@ h1{
 }
 
 /*
- * –{‘Ì
+ * æœ¬ä½“
  */
 #content{
     width:600px;
@@ -32,7 +32,7 @@ h1{
 }
 
 /*
- * “X•Üˆê——
+ * åº—èˆ—ä¸€è¦§
  */
 .shop_list{
     background-color: #fff9e2;
@@ -68,7 +68,7 @@ h1{
 }
 
 /*
- * ŒŸõ•”•ª
+ * æ¤œç´¢éƒ¨åˆ†
  */
 .search_area li{
     display: inline;
@@ -76,7 +76,7 @@ h1{
 }
 
 /*
- * ƒy[ƒWƒ“ƒO
+ * ãƒšãƒ¼ã‚¸ãƒ³ã‚°
  */
 .pages{
     font-size:85%;
